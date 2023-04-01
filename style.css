@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+}
+.column {
+	width: 100%;
+	flex: 50%;
+	padding: 15px;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: url('/bg.jpg')no-repeat;
+	background-position: center center;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-size: larger;
+}
+
+#tegas {
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(255, 255, 255);
+	font-size: x-large;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	
+}
+
+p {
+	width: 750px;
+	margin: 0 auto;
+	font-size: medium;
+	text-align: justify;
+	color: aliceblue;
+	background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+	padding: 10px 20px;
+	box-shadow: 1px 1px 5px #ff00c8;
+}
+
+
+.gambar {
+	width: 440px;
+	height: 250px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 0px;
+	box-shadow: 1px 1px 5px  #ff00c8;
+}
+
+
+#kane {
+	width: 440px;
+	height: 250px;
+	object-fit: cover;
+	
+}
+
+button[type="bacaselengkap"] {
+	background-color: #26b898;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type="bacaselengkap"]:hover {
+	background-color: #7a0492;
+}
+
+.baca{
+	display: flex;
+	margin: auto;
+}
