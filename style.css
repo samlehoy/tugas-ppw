@@ -76,14 +76,6 @@ p {
 	box-shadow: 1px 1px 5px  #ff00c8;
 }
 
-
-#kane {
-	width: 440px;
-	height: 250px;
-	object-fit: cover;
-	
-}
-
 button[type="bacaselengkap"] {
 	background-color: #26b898;
 	color: white;
